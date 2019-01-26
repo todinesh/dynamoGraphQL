@@ -1,30 +1,17 @@
 {
-  "name": "dynamoGraphQL",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "```\r npm install\r npm install serverless -g\r ```",
-  "main": "handler.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/todinesh/dynamoGraphQL.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/todinesh/dynamoGraphQL/issues"
-  },
-  "homepage": "https://github.com/todinesh/dynamoGraphQL#readme",
   "dependencies": {
-    "aws-sdk": "^2.395.0",
-    "graphql": "^14.1.1",
-    "graphql-tools": "^4.0.4",
-    "serverless": "^1.36.3",
+    "aws-sdk": "^2.382.0",
+    "graphql": "^14.0.2",
+    "serverless-dynamodb-local": "^0.2.36",
     "serverless-offline": "^4.2.0"
-  },
-  "devDependencies": {
-    "serverless-dynamodb-local": "^0.2.25"
   }
 }
