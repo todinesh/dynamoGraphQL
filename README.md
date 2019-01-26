@@ -10,7 +10,7 @@ npm install serverless-dynamodb-local
 npm install serverless-offline -g
 serverless dynamodb install
 ```
-
+###### Test and Deploy locally ######
 #Start locally
 ```
 serverless offline start
@@ -34,7 +34,7 @@ http://localhost:4000/local/query?query=mutation{deleteUser(id:1,firstName:"Joe"
 http://localhost:4000/local/query?query=mutation{deleteUser(id:2,firstName:"Jane"){id}}
 ```
 
-#Deploy and Test on AWS
+###### Test and Deploy on AWS ######
 #Deploy - AWS
 ```
 serverless deploy --stage dev --region <<aws_region>>
